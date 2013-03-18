@@ -2,7 +2,7 @@
 
 Proof of concept application to mimic Express.js in ASP.NET.
 
-Very experimental, see my **upcoming** blog post for more information...
+Very experimental, see my [blog post](http://kalmanspeier.com/blog/2013/03/18/express-dot-net-proof-of-concept/) for more information.
 
 ## Usage
 
