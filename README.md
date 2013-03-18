@@ -2,7 +2,7 @@
 
 Proof of concept application to mimic Express.js in ASP.NET.
 
-Very experimental, see my *upcoming* blog post for more information...
+Very experimental, see my **upcoming** blog post for more information...
 
 ## Usage
 
@@ -15,7 +15,7 @@ app.Get ("/", (req, res) => {
 
 ```
 
-For more usage samples, please see [Global.asax.cs](Global.asax.cs)
+For more usage samples, please see the included [Global.asax.cs](Global.asax.cs)
 
 ## License
 
