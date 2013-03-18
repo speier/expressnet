@@ -1,1 +1,1 @@
-<%@ Application Inherits="EmptyWebApp.Global" %>
+<%@ Application Inherits="ExpressNetSample.Global" %>

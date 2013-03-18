@@ -9,7 +9,7 @@ using System.Web.Script.Serialization;
 
 namespace ExpressNet
 {
-	public class ExpressNetApp : IRouteHandler, IHttpHandler
+	public class Express : IRouteHandler, IHttpHandler
 	{
 		private List<ExpressNetAction> middlewares = new List<ExpressNetAction> ();
 

@@ -8,7 +8,7 @@ namespace ExpressNetSample
 	{
 		protected virtual void Application_Start (Object sender, EventArgs e)
 		{
-			var app = new ExpressNetApp ();
+			var app = new Express ();
 
 			app.Use (PoweredByExpressNet ());
 
@@ -17,7 +17,7 @@ namespace ExpressNetSample
 			});
 
 			app.Get ("/json", (req, res) => {
-				res.Send (new { name = "ExpressNet", type = "Experiment" });
+				res.Send (new { name = "Express.NET", type = "Experiment" });
 			});
 
 			app.Get ("/user/{id}", LoadUser (), (req, res) => {
@@ -30,7 +30,7 @@ namespace ExpressNetSample
 		{
 			return (req, res) =>
 			{
-				res.Set ("X-Powered-By", "ExpressNet");
+				res.Set ("X-Powered-By", "Express.NET");
 			};
 		}
 

@@ -1,18 +1,21 @@
 # Express.NET
 
 Proof of concept application to mimic Express.js in ASP.NET.
-Very experimental, see my blog post for more information.
+
+Very experimental, see my *upcoming* blog post for more information...
 
 ## Usage
 
 ```
-var app = new ExpressNetApp ();
+var app = new Express ();
 
 app.Get ("/", (req, res) => {
     res.Send ("hello world");
 });
 
 ```
+
+For more usage samples, please see [Global.asax.cs](Global.asax.cs)
 
 ## License
 
